@@ -7,6 +7,7 @@ import ErrorBoundary from '../../core/components/ErrorBoundary.jsx';
 import Navbar from '../homepage/components/Navbar.jsx'; // ✅ import your navbar
 import AdBanner from './components/AdBanner.jsx';
 import FAQSection from '../contact/components/FAQSection.jsx';
+import img from '../../assets/bgsvg/hero-bg.svg';
 
 export default function HomepageScreen() {
   return (
@@ -14,7 +15,7 @@ export default function HomepageScreen() {
       <div className="relative overflow-hidden min-h-screen bg-white">
         {/* ✅ Background SVGs */}
         <img
-          src="src/assets/bgsvg/hero-bg.svg"
+          src={img}
           alt="Decoration"
           className="absolute top-0 right-0 w-[300px] opacity-50 pointer-events-none select-none"
         />
