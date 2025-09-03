@@ -1,0 +1,78 @@
+@import "tailwindcss";
+
+@theme {
+  /* Colors */
+  --color-primary: #F1A501;
+  --color-secondary: #DF6951;
+  --color-primary1: #fdf1d8;
+  --color-secondary2: #fff1ef;
+  --color-heading: #181E4B;
+  --color-paragraph: #5E6282;
+  --color-background: #F9FAFB;
+  --color-white: #FFFFFF;
+  --color-mint123: oklch(0.72 0.11 178);
+
+  /* Floating Button Colors */
+  --color-call: #2563EB;        /* Blue (for Call button) */
+  --color-call-hover: #1E40AF;  /* Darker Blue on hover */
+  --color-whatsapp: #25D366;    /* WhatsApp green */
+  --color-whatsapp-hover: #128C7E; /* Dark green hover */
+
+  /* Gradients */
+  --gradient-call: linear-gradient(135deg, var(--color-call), var(--color-call-hover));
+  --gradient-whatsapp: linear-gradient(135deg, var(--color-whatsapp), var(--color-whatsapp-hover));
+
+  /* Spacing */
+  --spacing-xs: 0.25rem;
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 1.5rem;
+  --spacing-xl: 2rem;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.1);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.1);
+
+  /* Typography */
+  --font-primary: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+
+  --heading-h1-font-size: 2.25rem;
+  --heading-h1-font-weight: 700;
+  --heading-h1-line-height: 1.2;
+  --heading-h1-letter-spacing: -0.025em;
+
+  --heading-h2-font-size: 1.875rem;
+  --heading-h2-font-weight: 600;
+  --heading-h2-line-height: 1.3;
+  --heading-h2-letter-spacing: -0.02em;
+
+  --heading-h3-font-size: 1.5rem;
+  --heading-h3-font-weight: 600;
+  --heading-h3-line-height: 1.4;
+  --heading-h3-letter-spacing: -0.015em;
+
+  --paragraph-default-font-size: 1rem;
+  --paragraph-default-font-weight: 400;
+  --paragraph-default-line-height: 1.5;
+  --paragraph-default-letter-spacing: 0em;
+
+  --paragraph-small-font-size: 0.875rem;
+  --paragraph-small-font-weight: 400;
+  --paragraph-small-line-height: 1.6;
+  --paragraph-small-letter-spacing: 0.01em;
+}
+
+/* Lora font utility class */
+.lora-unique {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.story-script-regular {
+  font-family: "Story Script", sans-serif;
+  font-weight: 800;
+  font-style: bold;
+}
