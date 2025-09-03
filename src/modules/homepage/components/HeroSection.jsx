@@ -1,5 +1,6 @@
 import React from 'react';
 import Card from '../../../core/components/ui/Card.jsx';
+import img from '../../../assets/image/hero/hero.png';
 
 export default function HeroSection() {
   return (
@@ -23,7 +24,7 @@ export default function HeroSection() {
         </div>
         <div className="md:w-1/2 p-6 select-none">
           <img
-            src="src/assets/image/hero/hero.png"
+            src={img}
             alt="Dr. Nishant Pandey"
             className="w-full h-auto rounded"
           />
